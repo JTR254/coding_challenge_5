@@ -50,6 +50,16 @@ const availableInventory = inventory.filter(inventory => inventory > 0); // filt
 console.log("Inventory: ", inventory); // logs the original array of numbers to the console
 console.log("Available Inventory: ", availableInventory); // logs the new array of numbers to the console
 
+// Task 6 - Revenue Calculation
+
+const sales = [500, 300, 200, 400]; // declares array of sales
+const total = sales.reduce((sum, sale) => sum + sale, 0); // calculating the total sales
+
+console.log ("Sales: ", sales) // logs the original array of sales to the console
+console.log ("Total Sales: ", total); // logs the total sales to the console
+
+
+
 
 
 
