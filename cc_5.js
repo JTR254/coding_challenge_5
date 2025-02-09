@@ -34,6 +34,14 @@ cartItems.shift(); // removes "Grapes" from the beginning of the array
 
 console.log(cartItems); // logs the array to the console
 
+// Task 4 - Price Adjustments
+
+prices = [100, 200, 300];
+let discountedPrices = prices.map(price => price * .9);
+
+console.log("Original Prices: ", prices);
+console.log("Discounted Prices: ", discountedPrices);
+
 
 
 
