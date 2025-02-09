@@ -81,7 +81,15 @@ console.log(`Price: $${amount}`); // logs the amount to the console
 console.log(`Tax Rate: ${taxRate}`); // logs the Tax Rate to the console
 console.log(`Tax Amount: $${taxAmount}`); // logs the Tax Amount to the console
 
+// Task 9 - Discount Application
 
+function applyDiscount (discount = .1, ...prices) { // create function that calculates the discounted amount of a price
+    return prices.map(price => price * (1 - discount));
+};
+
+let discountedAmount = applyDiscount (.1, 100, 200, 300);
+
+console.log("Discounted Prices: ", discountedAmount); // logs the discounted price to the console
 
 
 
