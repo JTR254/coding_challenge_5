@@ -24,5 +24,19 @@ let order = { // creates an object
 
 order.displayOrder(); // calling the method, then logs the details to the console
 
+// Task 3 - Shopping Cart
+
+let cartItems = ["Apples", "Bananas", "Avocados"]; // declares array
+cartItems.push("Pears"); // adds "Pears" to the end of the array
+cartItems.pop(); // removes "Pears" from the end of the array
+cartItems.unshift("Grapes"); // adds "Grapes" to the beginning of the array
+cartItems.shift(); // removes "Grapes" from the beginning of the array
+
+console.log(cartItems); // logs the array to the console
+
+
+
+
+
 
 
