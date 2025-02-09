@@ -66,7 +66,20 @@ const user = customers.find(customer => customer === "Charlie"); // uses .find()
 console.log("Customers: ", customers); // logs the array of customers to the console
 console.log("User: ", user); // logs the user to the console
 
+// Task 8 - Tax Calculation
 
+function calculateTax(amount, taxRate) { // creates a function that calculates the Tax
+    return amount * taxRate;
+};
+
+let amount = 100;
+let taxRate = .08; // 8% Tax
+
+let taxAmount = calculateTax (amount, taxRate);
+
+console.log(`Price: $${amount}`); // logs the amount to the console
+console.log(`Tax Rate: ${taxRate}`); // logs the Tax Rate to the console
+console.log(`Tax Amount: $${taxAmount}`); // logs the Tax Amount to the console
 
 
 
