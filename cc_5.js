@@ -36,11 +36,19 @@ console.log(cartItems); // logs the array to the console
 
 // Task 4 - Price Adjustments
 
-prices = [100, 200, 300];
-let discountedPrices = prices.map(price => price * .9);
+prices = [100, 200, 300]; // declares array or prices
+let discountedPrices = prices.map(price => price * .9); // uses the .map() method to apply a 10% discount to each of the prices
 
-console.log("Original Prices: ", prices);
-console.log("Discounted Prices: ", discountedPrices);
+console.log("Original Prices: ", prices); // logs the original prices to the console
+console.log("Discounted Prices: ", discountedPrices); // logs the discounted prices to the console
+
+// Task 5 - Product Availability
+
+const inventory = [4, 5, 7, 3, 0]; // declares array
+const availableInventory = inventory.filter(inventory => inventory > 0); // filters array to include numbers greater than 0
+
+console.log("Inventory: ", inventory); // logs the original array of numbers to the console
+console.log("Available Inventory: ", availableInventory); // logs the new array of numbers to the console
 
 
 
