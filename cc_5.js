@@ -58,7 +58,13 @@ const total = sales.reduce((sum, sale) => sum + sale, 0); // calculating the tot
 console.log ("Sales: ", sales) // logs the original array of sales to the console
 console.log ("Total Sales: ", total); // logs the total sales to the console
 
+// Task 7 - Customer Search
 
+const customers = ["Alice", "Bob", "Charlie", "David"]; // declares array of customers
+const user = customers.find(customer => customer === "Charlie"); // uses .find() to find the user "Charlie"
+
+console.log("Customers: ", customers); // logs the array of customers to the console
+console.log("User: ", user); // logs the user to the console
 
 
 
